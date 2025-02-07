@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T19:01:28Z" name="Default suite" finished-at="2025-01-18T19:01:31Z" duration-ms="2747">
+  <suite started-at="2025-02-04T02:27:36Z" name="Default suite" finished-at="2025-02-04T02:27:58Z" duration-ms="21876">
     <groups>
     </groups>
-    <test started-at="2025-01-18T19:01:28Z" name="Default test" finished-at="2025-01-18T19:01:31Z" duration-ms="2747">
-      <class name="selenium.Test2Google">
-        <test-method signature="f()[pri:0, instance:selenium.Test2Google@6d167f58]" started-at="2025-01-18T14:01:28Z" name="f" finished-at="2025-01-18T14:01:31Z" duration-ms="2726" status="PASS">
+    <test started-at="2025-02-04T02:27:36Z" name="Default test" finished-at="2025-02-04T02:27:58Z" duration-ms="21876">
+      <class name="selenium.AmazonTest">
+        <test-method signature="f()[pri:0, instance:selenium.AmazonTest@1b75c2e3]" started-at="2025-02-03T21:27:36Z" name="f" finished-at="2025-02-03T21:27:58Z" duration-ms="21801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- selenium.Test2Google -->
+      </class> <!-- selenium.AmazonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

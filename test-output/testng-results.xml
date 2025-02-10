@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T02:27:36Z" name="Default suite" finished-at="2025-02-04T02:27:58Z" duration-ms="21876">
+  <suite started-at="2025-02-10T04:03:05Z" name="Default suite" finished-at="2025-02-10T04:03:07Z" duration-ms="2005">
     <groups>
     </groups>
-    <test started-at="2025-02-04T02:27:36Z" name="Default test" finished-at="2025-02-04T02:27:58Z" duration-ms="21876">
-      <class name="selenium.AmazonTest">
-        <test-method signature="f()[pri:0, instance:selenium.AmazonTest@1b75c2e3]" started-at="2025-02-03T21:27:36Z" name="f" finished-at="2025-02-03T21:27:58Z" duration-ms="21801" status="PASS">
+    <test started-at="2025-02-10T04:03:05Z" name="Default test" finished-at="2025-02-10T04:03:07Z" duration-ms="2005">
+      <class name="POMLoginTest.TC_01_Login">
+        <test-method is-config="true" signature="startPage()[pri:0, instance:POMLoginTest.TC_01_Login@10b3df93]" started-at="2025-02-09T23:03:05Z" name="startPage" finished-at="2025-02-09T23:03:06Z" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- selenium.AmazonTest -->
+        </test-method> <!-- startPage -->
+        <test-method signature="LoginTest_01()[pri:0, instance:POMLoginTest.TC_01_Login@10b3df93]" started-at="2025-02-09T23:03:06Z" name="LoginTest_01" finished-at="2025-02-09T23:03:07Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest_01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:POMLoginTest.TC_01_Login@10b3df93]" started-at="2025-02-09T23:03:07Z" name="closeDriver" finished-at="2025-02-09T23:03:07Z" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- POMLoginTest.TC_01_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.AmazonTest">
+      <class name="selenium.Ejemplo_SoftAssert">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- selenium.AmazonTest -->
+      </class> <!-- selenium.Ejemplo_SoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

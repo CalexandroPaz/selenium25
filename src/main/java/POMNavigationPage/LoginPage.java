@@ -15,18 +15,26 @@ public class LoginPage {
 	
 	//LoginPage WebElements
 	@FindBy(id="user-name")
-	WebElement userNameInput;
+	private WebElement userNameInput;
 	
 	@FindBy(id = "password")
-	WebElement pwdnput;
+	private WebElement pwdnput;
 	
 	@FindBy(id = "login-button")
-	WebElement loginBtn;
+	private WebElement loginBtn;
+	
+	@FindBy(xpath = "//*[@data-test='error']")
+	private WebElement errorMsg;
 	
 	public void login(String user, String pwd) {
 		WrapClass.sendKeys(userNameInput, user);
 		WrapClass.sendKeys(pwdnput, pwd);
 		WrapClass.click(loginBtn);
+	}
+	
+	public boolean validateLockedUserError() {
+		boolean errorDisplayed = WrapClass.getText(errorMsg).contains("Sorry, this user has been locked out");
+		return errorDisplayed;
 	}
 
 }
